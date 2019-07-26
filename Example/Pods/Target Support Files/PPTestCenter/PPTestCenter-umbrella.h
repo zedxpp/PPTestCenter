@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "PPCar.h"
 
 FOUNDATION_EXPORT double PPTestCenterVersionNumber;
 FOUNDATION_EXPORT const unsigned char PPTestCenterVersionString[];

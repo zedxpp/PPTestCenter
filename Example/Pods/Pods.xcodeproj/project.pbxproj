@@ -7,15 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3324A10922EB02B4004307D7 /* PPCar.m in Sources */ = {isa = PBXBuildFile; fileRef = 3324A10722EB02B4004307D7 /* PPCar.m */; };
-		3324A10A22EB02B4004307D7 /* PPCar.h in Headers */ = {isa = PBXBuildFile; fileRef = 3324A10822EB02B4004307D7 /* PPCar.h */; };
 		43904630F86C57C3A327457D6BB99342 /* Pods-PPTestCenter_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ADA3FE10C06316F338FF1379BDF1C42 /* Pods-PPTestCenter_Example-dummy.m */; };
-		58FDFC804C20F5C1761870852BB68DB1 /* PPTestCenter-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E52447E5B0C3538E0190F68B2655DAFF /* PPTestCenter-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		779A6932A64B8C3B13AEE63AB46D1E22 /* Pods-PPTestCenter_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 24610F4001BF762C16F0BD66BC4C54D2 /* Pods-PPTestCenter_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		79025E495B8D845B09CF079F41654AE6 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B3770C76D87DE5AC6BA639F734BA5B0 /* ReplaceMe.m */; };
-		AEC13379E0B644E9D65D3086B7083A6C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		8D0084B14965E14521B7C1A5D409C184 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 00384ED8BD3BE0446CF3B08D1925FB76 /* ReplaceMe.m */; };
+		BF3D77280A81024B262F19F4D7C69209 /* PPCar.h in Headers */ = {isa = PBXBuildFile; fileRef = B3B53EF57AC84605357189749A4DD386 /* PPCar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C435C6C92EDB3C9E594A3A93A8616169 /* PPCar.m in Sources */ = {isa = PBXBuildFile; fileRef = 68EB4826E66D184041BFF8902099FF7A /* PPCar.m */; };
 		C4AE6FB1BE1A6504B34AD99120FCB016 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		C6106B2A2AEF0475F45F0F4B3AC3F688 /* PPTestCenter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C11C3A876E613DFF489C0FFD8C23034A /* PPTestCenter-dummy.m */; };
+		D18B9BFCAB712112CFB2BE273D30EB0B /* PPTestCenter-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BA1B882D8FD9EC6B8005BBBDCFD556F /* PPTestCenter-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E3BA185A7E74F59B2CA60041ED880575 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		F0914A756F99ACD54E6D809D84BE4395 /* PPTestCenter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 27642251E8F1BB704CA04A1B9DFB0053 /* PPTestCenter-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,31 +29,42 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		047E1759F67ABBBC98BBCE81E1685EBF /* PPTestCenter.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PPTestCenter.xcconfig; sourceTree = "<group>"; };
+		00384ED8BD3BE0446CF3B08D1925FB76 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = PPTestCenter/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		14CF1AB957B1936748E21D15E1B6CCF4 /* PPTestCenter.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PPTestCenter.xcconfig; sourceTree = "<group>"; };
 		24610F4001BF762C16F0BD66BC4C54D2 /* Pods-PPTestCenter_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PPTestCenter_Example-umbrella.h"; sourceTree = "<group>"; };
+		27642251E8F1BB704CA04A1B9DFB0053 /* PPTestCenter-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PPTestCenter-dummy.m"; sourceTree = "<group>"; };
+		29EF06DABB9EAEDA8A3ADD17E336CE85 /* PPTestCenter.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = PPTestCenter.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		2ADA3FE10C06316F338FF1379BDF1C42 /* Pods-PPTestCenter_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PPTestCenter_Example-dummy.m"; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		3324A10722EB02B4004307D7 /* PPCar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PPCar.m; path = ../../../PPTestCenter/Classes/PPCar.m; sourceTree = "<group>"; };
-		3324A10822EB02B4004307D7 /* PPCar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PPCar.h; path = ../../../PPTestCenter/Classes/PPCar.h; sourceTree = "<group>"; };
 		358CC88071D39BE29E846AD6CDC83C17 /* Pods-PPTestCenter_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PPTestCenter_Example.modulemap"; sourceTree = "<group>"; };
+		3CA2DA553C9C675AB6E7BD2E7FF87740 /* PPTestCenter-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "PPTestCenter-Info.plist"; sourceTree = "<group>"; };
 		42659D0E58AAD4822E37810710A61972 /* Pods-PPTestCenter_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PPTestCenter_Example-frameworks.sh"; sourceTree = "<group>"; };
-		457799B91572ABD48B74AD6B7545FBE7 /* PPTestCenter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PPTestCenter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		47523D0EE2F942CDFECE41AE2074693C /* PPTestCenter-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PPTestCenter-prefix.pch"; sourceTree = "<group>"; };
+		457799B91572ABD48B74AD6B7545FBE7 /* PPTestCenter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PPTestCenter.framework; path = PPTestCenter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		55F26338BADCB02341ACB554D6E3BF90 /* Pods-PPTestCenter_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PPTestCenter_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		6D0677EB1077882581FD9F75751DFD73 /* PPTestCenter-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "PPTestCenter-Info.plist"; sourceTree = "<group>"; };
+		5AA564626F00FC5130B5A886DFF7B3D5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		5BA1B882D8FD9EC6B8005BBBDCFD556F /* PPTestCenter-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PPTestCenter-umbrella.h"; sourceTree = "<group>"; };
+		68EB4826E66D184041BFF8902099FF7A /* PPCar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PPCar.m; path = PPTestCenter/Classes/PPCar.m; sourceTree = "<group>"; };
 		6DAEF941FC101A6B86961E1DD3F87AAA /* Pods-PPTestCenter_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PPTestCenter_Example.release.xcconfig"; sourceTree = "<group>"; };
 		738D0BA01ECCA77EB872AC62C6314617 /* Pods-PPTestCenter_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PPTestCenter_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		866BEBCBF91CDE608004BEB5517DA254 /* PPTestCenter.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PPTestCenter.modulemap; sourceTree = "<group>"; };
-		8C232B280EB725FEE94FBEE80A77024F /* Pods_PPTestCenter_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PPTestCenter_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9B3770C76D87DE5AC6BA639F734BA5B0 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = PPTestCenter/Classes/ReplaceMe.m; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		C11C3A876E613DFF489C0FFD8C23034A /* PPTestCenter-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PPTestCenter-dummy.m"; sourceTree = "<group>"; };
+		7EA614023E7FDAD62E8A8F284FBB420B /* PPTestCenter-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PPTestCenter-prefix.pch"; sourceTree = "<group>"; };
+		8C232B280EB725FEE94FBEE80A77024F /* Pods_PPTestCenter_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PPTestCenter_Example.framework; path = "Pods-PPTestCenter_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B3B53EF57AC84605357189749A4DD386 /* PPCar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PPCar.h; path = PPTestCenter/Classes/PPCar.h; sourceTree = "<group>"; };
 		D9CFA8FAFD73212EC45EAE22D47C90D7 /* Pods-PPTestCenter_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PPTestCenter_Example-Info.plist"; sourceTree = "<group>"; };
-		E52447E5B0C3538E0190F68B2655DAFF /* PPTestCenter-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PPTestCenter-umbrella.h"; sourceTree = "<group>"; };
 		E53F4831D20C39D1B19AC262C1FCED27 /* Pods-PPTestCenter_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PPTestCenter_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		ED5895812EBE512AD501A083C57DEB6E /* PPTestCenter.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PPTestCenter.modulemap; sourceTree = "<group>"; };
+		F51E41A2D37FA9262BFADF48EF87F6A8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		4F6ACC9D81B0B5B123C6CDCAC733E392 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3BA185A7E74F59B2CA60041ED880575 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6914D5DAEB79F2063A638C7193C9A1AA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -62,23 +73,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EC36499F01F5EEA2A83A1206AE3FCD82 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				AEC13379E0B644E9D65D3086B7083A6C /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		3F774C707E070E343C28A6C5A30FB2E0 /* Pods */ = {
+		36279C3796F8DD14589D78BA05C8B7BC /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				8549045491951C27CB5E6AE15E7EC886 /* PPTestCenter */,
+				A67F36E86BDC287E1DA9CD09072124F6 /* PPTestCenter */,
 			);
-			name = Pods;
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		45AD5D38C82105727DAE78F62AAC0744 /* Products */ = {
@@ -90,15 +93,18 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		8549045491951C27CB5E6AE15E7EC886 /* PPTestCenter */ = {
+		730052CBC6D1D7EE0C11AA7EA59649B5 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				3324A10822EB02B4004307D7 /* PPCar.h */,
-				3324A10722EB02B4004307D7 /* PPCar.m */,
-				9B3770C76D87DE5AC6BA639F734BA5B0 /* ReplaceMe.m */,
-				C147B47A7AF4C75D17A7D8851991147D /* Support Files */,
+				ED5895812EBE512AD501A083C57DEB6E /* PPTestCenter.modulemap */,
+				14CF1AB957B1936748E21D15E1B6CCF4 /* PPTestCenter.xcconfig */,
+				27642251E8F1BB704CA04A1B9DFB0053 /* PPTestCenter-dummy.m */,
+				3CA2DA553C9C675AB6E7BD2E7FF87740 /* PPTestCenter-Info.plist */,
+				7EA614023E7FDAD62E8A8F284FBB420B /* PPTestCenter-prefix.pch */,
+				5BA1B882D8FD9EC6B8005BBBDCFD556F /* PPTestCenter-umbrella.h */,
 			);
-			path = PPTestCenter;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/PPTestCenter";
 			sourceTree = "<group>";
 		};
 		88C70B95C6AC21193F6227D4F30B2995 /* Pods-PPTestCenter_Example */ = {
@@ -126,6 +132,29 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		A67F36E86BDC287E1DA9CD09072124F6 /* PPTestCenter */ = {
+			isa = PBXGroup;
+			children = (
+				B3B53EF57AC84605357189749A4DD386 /* PPCar.h */,
+				68EB4826E66D184041BFF8902099FF7A /* PPCar.m */,
+				00384ED8BD3BE0446CF3B08D1925FB76 /* ReplaceMe.m */,
+				BCD95C28D5B3F20EDADAF5C19A0CB2E4 /* Pod */,
+				730052CBC6D1D7EE0C11AA7EA59649B5 /* Support Files */,
+			);
+			name = PPTestCenter;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		BCD95C28D5B3F20EDADAF5C19A0CB2E4 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				5AA564626F00FC5130B5A886DFF7B3D5 /* LICENSE */,
+				29EF06DABB9EAEDA8A3ADD17E336CE85 /* PPTestCenter.podspec */,
+				F51E41A2D37FA9262BFADF48EF87F6A8 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
 		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -134,26 +163,12 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		C147B47A7AF4C75D17A7D8851991147D /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				866BEBCBF91CDE608004BEB5517DA254 /* PPTestCenter.modulemap */,
-				047E1759F67ABBBC98BBCE81E1685EBF /* PPTestCenter.xcconfig */,
-				C11C3A876E613DFF489C0FFD8C23034A /* PPTestCenter-dummy.m */,
-				6D0677EB1077882581FD9F75751DFD73 /* PPTestCenter-Info.plist */,
-				47523D0EE2F942CDFECE41AE2074693C /* PPTestCenter-prefix.pch */,
-				E52447E5B0C3538E0190F68B2655DAFF /* PPTestCenter-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/PPTestCenter";
-			sourceTree = "<group>";
-		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				36279C3796F8DD14589D78BA05C8B7BC /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				3F774C707E070E343C28A6C5A30FB2E0 /* Pods */,
 				45AD5D38C82105727DAE78F62AAC0744 /* Products */,
 				9DB89DD4C332F43FAFAE96C5D1DBB8FD /* Targets Support Files */,
 			);
@@ -175,15 +190,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				779A6932A64B8C3B13AEE63AB46D1E22 /* Pods-PPTestCenter_Example-umbrella.h in Headers */,
-				3324A10A22EB02B4004307D7 /* PPCar.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		901725FD5E79690DC68CD47BCA0A687A /* Headers */ = {
+		F73F31AFE71B185E82FE18F210893507 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				58FDFC804C20F5C1761870852BB68DB1 /* PPTestCenter-umbrella.h in Headers */,
+				BF3D77280A81024B262F19F4D7C69209 /* PPCar.h in Headers */,
+				D18B9BFCAB712112CFB2BE273D30EB0B /* PPTestCenter-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -211,12 +226,12 @@
 		};
 		66BA21D5A4E1598F2F3C657DD1BF2D16 /* PPTestCenter */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 16E57DF22264372F0C4E1AD5C04C53DA /* Build configuration list for PBXNativeTarget "PPTestCenter" */;
+			buildConfigurationList = C310E29272A1DC09AFA38C5472A7C5FC /* Build configuration list for PBXNativeTarget "PPTestCenter" */;
 			buildPhases = (
-				901725FD5E79690DC68CD47BCA0A687A /* Headers */,
-				9556E62F812DC7BAEEE287B7EE77C8F9 /* Sources */,
-				EC36499F01F5EEA2A83A1206AE3FCD82 /* Frameworks */,
-				C7ED5DF17E2E6FB11C3D6C9F6D5D2D6E /* Resources */,
+				F73F31AFE71B185E82FE18F210893507 /* Headers */,
+				F36673479BDF6F54E91B2A5603EE87BD /* Sources */,
+				4F6ACC9D81B0B5B123C6CDCAC733E392 /* Frameworks */,
+				A63D432B536D5DB25662229D6A923B3E /* Resources */,
 			);
 			buildRules = (
 			);
@@ -262,7 +277,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C7ED5DF17E2E6FB11C3D6C9F6D5D2D6E /* Resources */ = {
+		A63D432B536D5DB25662229D6A923B3E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -276,17 +291,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3324A10922EB02B4004307D7 /* PPCar.m in Sources */,
 				43904630F86C57C3A327457D6BB99342 /* Pods-PPTestCenter_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9556E62F812DC7BAEEE287B7EE77C8F9 /* Sources */ = {
+		F36673479BDF6F54E91B2A5603EE87BD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C6106B2A2AEF0475F45F0F4B3AC3F688 /* PPTestCenter-dummy.m in Sources */,
-				79025E495B8D845B09CF079F41654AE6 /* ReplaceMe.m in Sources */,
+				C435C6C92EDB3C9E594A3A93A8616169 /* PPCar.m in Sources */,
+				F0914A756F99ACD54E6D809D84BE4395 /* PPTestCenter-dummy.m in Sources */,
+				8D0084B14965E14521B7C1A5D409C184 /* ReplaceMe.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -355,7 +370,8 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -459,9 +475,9 @@
 			};
 			name = Debug;
 		};
-		97209AE9EAD88EC8CE1C6415CD4B83D1 /* Release */ = {
+		8FC1268DDAB0E67838E0656460EE7531 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 047E1759F67ABBBC98BBCE81E1685EBF /* PPTestCenter.xcconfig */;
+			baseConfigurationReference = 14CF1AB957B1936748E21D15E1B6CCF4 /* PPTestCenter.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -524,9 +540,9 @@
 			};
 			name = Debug;
 		};
-		C4945FE872F67459F981D8A5D91FCF80 /* Debug */ = {
+		B602F887B1C4772E17185817B8013FC3 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 047E1759F67ABBBC98BBCE81E1685EBF /* PPTestCenter.xcconfig */;
+			baseConfigurationReference = 14CF1AB957B1936748E21D15E1B6CCF4 /* PPTestCenter.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -558,20 +574,20 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		16E57DF22264372F0C4E1AD5C04C53DA /* Build configuration list for PBXNativeTarget "PPTestCenter" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				C4945FE872F67459F981D8A5D91FCF80 /* Debug */,
-				97209AE9EAD88EC8CE1C6415CD4B83D1 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7EF7227D9B20A1D549000096ACCB23D7 /* Debug */,
 				4BE66A09A74FD25164AAB3C2645B9B93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C310E29272A1DC09AFA38C5472A7C5FC /* Build configuration list for PBXNativeTarget "PPTestCenter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B602F887B1C4772E17185817B8013FC3 /* Debug */,
+				8FC1268DDAB0E67838E0656460EE7531 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

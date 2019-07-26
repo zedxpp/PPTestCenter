@@ -2,20 +2,15 @@ PODS:
   - PPTestCenter (0.1.0)
 
 DEPENDENCIES:
-  - "PPTestCenter (from `git@github.com:zedxpp/PPTestCenter.git`)"
+  - PPTestCenter (from `../`)
 
 EXTERNAL SOURCES:
   PPTestCenter:
-    :git: "git@github.com:zedxpp/PPTestCenter.git"
-
-CHECKOUT OPTIONS:
-  PPTestCenter:
-    :commit: bf995ae892f5f311b9af3c54ad212bfea21cff7f
-    :git: "git@github.com:zedxpp/PPTestCenter.git"
+    :path: "../"
 
 SPEC CHECKSUMS:
   PPTestCenter: 639780925d2e3ba3c77c07f4115526b48303966b
 
-PODFILE CHECKSUM: b2b0b28fc50010644da0d210c255e40f9ed49762
+PODFILE CHECKSUM: 74b15e1247c121a0b06fd70062830402696c2a25
 
 COCOAPODS: 1.7.2

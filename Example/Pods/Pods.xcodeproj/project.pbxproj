@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3324A10522EB0292004307D7 /* PPCar.h in Headers */ = {isa = PBXBuildFile; fileRef = 3324A10322EB0291004307D7 /* PPCar.h */; };
-		3324A10622EB0292004307D7 /* PPCar.m in Sources */ = {isa = PBXBuildFile; fileRef = 3324A10422EB0291004307D7 /* PPCar.m */; };
+		3324A10922EB02B4004307D7 /* PPCar.m in Sources */ = {isa = PBXBuildFile; fileRef = 3324A10722EB02B4004307D7 /* PPCar.m */; };
+		3324A10A22EB02B4004307D7 /* PPCar.h in Headers */ = {isa = PBXBuildFile; fileRef = 3324A10822EB02B4004307D7 /* PPCar.h */; };
 		43904630F86C57C3A327457D6BB99342 /* Pods-PPTestCenter_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ADA3FE10C06316F338FF1379BDF1C42 /* Pods-PPTestCenter_Example-dummy.m */; };
 		58FDFC804C20F5C1761870852BB68DB1 /* PPTestCenter-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E52447E5B0C3538E0190F68B2655DAFF /* PPTestCenter-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		779A6932A64B8C3B13AEE63AB46D1E22 /* Pods-PPTestCenter_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 24610F4001BF762C16F0BD66BC4C54D2 /* Pods-PPTestCenter_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -33,8 +33,8 @@
 		24610F4001BF762C16F0BD66BC4C54D2 /* Pods-PPTestCenter_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PPTestCenter_Example-umbrella.h"; sourceTree = "<group>"; };
 		2ADA3FE10C06316F338FF1379BDF1C42 /* Pods-PPTestCenter_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PPTestCenter_Example-dummy.m"; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		3324A10322EB0291004307D7 /* PPCar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PPCar.h; path = ../../../PPTestCenter/Classes/PPCar.h; sourceTree = "<group>"; };
-		3324A10422EB0291004307D7 /* PPCar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PPCar.m; path = ../../../PPTestCenter/Classes/PPCar.m; sourceTree = "<group>"; };
+		3324A10722EB02B4004307D7 /* PPCar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PPCar.m; path = ../../../PPTestCenter/Classes/PPCar.m; sourceTree = "<group>"; };
+		3324A10822EB02B4004307D7 /* PPCar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PPCar.h; path = ../../../PPTestCenter/Classes/PPCar.h; sourceTree = "<group>"; };
 		358CC88071D39BE29E846AD6CDC83C17 /* Pods-PPTestCenter_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PPTestCenter_Example.modulemap"; sourceTree = "<group>"; };
 		42659D0E58AAD4822E37810710A61972 /* Pods-PPTestCenter_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PPTestCenter_Example-frameworks.sh"; sourceTree = "<group>"; };
 		457799B91572ABD48B74AD6B7545FBE7 /* PPTestCenter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PPTestCenter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -93,8 +93,8 @@
 		8549045491951C27CB5E6AE15E7EC886 /* PPTestCenter */ = {
 			isa = PBXGroup;
 			children = (
-				3324A10322EB0291004307D7 /* PPCar.h */,
-				3324A10422EB0291004307D7 /* PPCar.m */,
+				3324A10822EB02B4004307D7 /* PPCar.h */,
+				3324A10722EB02B4004307D7 /* PPCar.m */,
 				9B3770C76D87DE5AC6BA639F734BA5B0 /* ReplaceMe.m */,
 				C147B47A7AF4C75D17A7D8851991147D /* Support Files */,
 			);
@@ -175,6 +175,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				779A6932A64B8C3B13AEE63AB46D1E22 /* Pods-PPTestCenter_Example-umbrella.h in Headers */,
+				3324A10A22EB02B4004307D7 /* PPCar.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -183,7 +184,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				58FDFC804C20F5C1761870852BB68DB1 /* PPTestCenter-umbrella.h in Headers */,
-				3324A10522EB0292004307D7 /* PPCar.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,6 +276,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3324A10922EB02B4004307D7 /* PPCar.m in Sources */,
 				43904630F86C57C3A327457D6BB99342 /* Pods-PPTestCenter_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -284,7 +285,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3324A10622EB0292004307D7 /* PPCar.m in Sources */,
 				C6106B2A2AEF0475F45F0F4B3AC3F688 /* PPTestCenter-dummy.m in Sources */,
 				79025E495B8D845B09CF079F41654AE6 /* ReplaceMe.m in Sources */,
 			);

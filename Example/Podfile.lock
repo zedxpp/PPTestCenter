@@ -1,0 +1,16 @@
+PODS:
+  - PPTestCenter (0.1.0)
+
+DEPENDENCIES:
+  - PPTestCenter (from `../`)
+
+EXTERNAL SOURCES:
+  PPTestCenter:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  PPTestCenter: 639780925d2e3ba3c77c07f4115526b48303966b
+
+PODFILE CHECKSUM: 9960b3f3e9605bc2341f21890f925c0554b00bdc
+
+COCOAPODS: 1.7.2

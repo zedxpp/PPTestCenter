@@ -1,0 +1,6 @@
+framework module PPTestCenter {
+  umbrella header "PPTestCenter-umbrella.h"
+
+  export *
+  module * { export * }
+}

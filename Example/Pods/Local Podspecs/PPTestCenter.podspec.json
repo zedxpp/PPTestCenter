@@ -1,0 +1,22 @@
+{
+  "name": "PPTestCenter",
+  "version": "0.1.0",
+  "summary": "A short description of PPTestCenter.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/pengpengtest/PPTestCenter",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "pengpengtest": "zedxpp@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/pengpengtest/PPTestCenter.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "PPTestCenter/Classes/**/*"
+}

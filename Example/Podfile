@@ -1,0 +1,9 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'PPTestCenter_Example' do
+#pod 'PPTestCenter', :path => '../'
+pod 'PPTestCenter', :git => 'git@github.com:zedxpp/PPTestCenter.git'
+
+end
